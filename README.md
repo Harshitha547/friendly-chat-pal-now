@@ -28,34 +28,7 @@ Gradio: For creating the interactive and user-friendly web interface.
 (Note: These are general steps. Specific setup might vary based on your exact implementation.)
 
 Clone the repository:
-Bash
 
-git clone https://github.com/your-username/recipe-chefbot.git
-cd recipe-chefbot
-Install dependencies:
-Bash
-
-pip install -r requirements.txt
-(requirements.txt would list transformers, datasets, gradio, etc.)
-Set up API keys/access (if needed):
-Ensure you have access to the specified LLM (e.g., Hugging Face API token for Meta Llama models or Google Cloud credentials for Vertex AI).
-Run the application:
-Bash
-
-python app.py # Or your main application file
-Open your web browser and navigate to the local address provided by Gradio (usually http://127.0.0.1:7860).
 🤔 Challenges & Learnings
 Developing Recipe ChefBot presented unique challenges, particularly in prompt engineering. Crafting a system prompt that consistently guides the LLM to generate accurate, practical, and safe recipes, all while adhering to character limits, required extensive experimentation. Balancing creative freedom with factual integrity and ensuring the bot politely redirects out-of-scope queries were key learning experiences.
-
-💡 Future Enhancements
-Integration with external recipe APIs for a wider database.
-User accounts for saving favorite recipes and meal plans.
-Voice-activated interaction for hands-free cooking.
-Shopping list export functionality.
-Advanced personalization based on user history and preferences.
-🤝 Contributing
-Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
